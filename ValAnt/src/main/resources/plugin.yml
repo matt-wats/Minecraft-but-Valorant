@@ -1,0 +1,43 @@
+name: ValAnt
+main: io.github.amutau.ValAnt.ValAnt
+version: 0.0.1
+author: amutau
+api-version: 1.16
+
+commands:  
+  yoru:
+   description: starts the jumpin
+   permission: JumpPlug.jumpS
+   permission-message: You need jumpStart perm
+   usage: /<command>
+
+  sage:
+   description: stops the jumpin
+   permission: JumpPlug.jumpS
+   permission-message: You need jumpStop perm
+   usage: /<command>
+  
+  phoenix:
+   description: phoe
+   permission: ValAnt.phoenix
+   usage: /<command>
+   
+  clearAgent:
+   description: clear
+   permission: ValAnt.clear
+   usage: /<command>
+   
+  jett:
+   description: jett
+   permission: ValAnt.jett
+   usage: /<command>
+   
+ 
+permissions:
+  
+  JumpPlug.jumpS:
+    description: starts the jump
+    default: op
+
+  
+  
